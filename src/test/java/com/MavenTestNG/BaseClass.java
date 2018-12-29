@@ -15,7 +15,7 @@ public class BaseClass {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.google.com/");
 		String Title = driver.getTitle();
-		Assert.assertEquals(Title, "Google");
+		Assert.assertEquals(Title, "Go");
 	}
 
 
